@@ -49,7 +49,7 @@ def charger_data():
     cols_zeroes = ["Glucose", "Pression", "Epaisseur_peau", "Insuline", "IMC"]
     for col in cols_zeroes:
         df[col] = df[col].replace(0, np.nan)
-        df[col].fillna(df[col].median(), inplace=True)
+        df[col] = df[col].fillna(df[col].median())
     return df
 
 df = charger_data()
