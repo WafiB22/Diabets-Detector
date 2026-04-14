@@ -115,4 +115,4 @@ Scikit-learn Documentation
 Streamlit Documentation
 
 👥 Auteur
-Wafi BOUIMEDJ GitHub
+Wafi BOUIMEDJ github.com/WafiB22
